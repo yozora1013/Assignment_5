@@ -1,23 +1,14 @@
 {% extends "base.html" %}
 {% block header %}
 <!-- Page Header-->
-        <header class="masthead">
-            <div class="overlay"></div>
+        <!-- timetable-->
+        <section class="page-section" id="timetable">
             <div class="container">
-                <div class="row" style="max-height: 330px; margin-top: -5%;">
-                    <div class="col-lg-8 col-md-10 mx-auto">
-                        <div class="site-heading">
-                            <h3>本月live一览</h3>
-                        </div>
-                    </div>
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">本月live一览</h2>
+                    <h3 class="section-subheading text-muted">按日期查找想看的演出</h3>
                 </div>
-            </div>
-        </header>
-{% endblock %}
-{% block content %}
-        <!-- Main Content-->
-        <div class="container">
-            <table border="1"  width="100%">
+                <table border="1"  width="100%">
 
 <tr bgcolor="grey">
 <th width="5%">目录</th>
@@ -70,7 +61,6 @@
 <tr><td align="center">47</td><td align="center">独立</td><td align="center">寸铁巡演 北京站</td><td align="center">https://www.showstart.com/event/163076</td><td align="center">寸铁</td><td align="center">2021/10/23 20:30</td><td align="center">¥250</td><td align="center">糖果LIVE三层</td></tr>
 <tr><td align="center">52</td><td align="center">独立</td><td align="center">潮池蓝「深夜出走」2021巡演 北京站</td><td align="center">https://www.showstart.com/event/161866</td><td align="center">潮池蓝</td><td align="center">2021/11/05 20:30</td><td align="center">¥80起</td><td align="center">北京 MAO Livehouse</td></tr>
 </table>
-
-        </div>
-        <hr />
+            </div>
+        </section>
 {% endblock %}
